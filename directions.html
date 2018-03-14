@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tim's Trivia Game </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <br>
     <div class="jumbotron">
         <h1>Tim's Trivia Game!</h1>
-        <p>This game will test what you know about the central Florida theme park attractions.  You will have 1 minute to answer 5 questions.  Good luck!</p>
+        <p>This game will test what you know about the central Florida theme park attractions. You will have 1 minute to answer
+            5 questions. Good luck!</p>
         <br>
-            <div class="panel">
-                <button type="button" class="btn btn-primary btn-lg btn-block"></button>      
-                <h3>DISPATCH</h3>
-            </div>   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="closegates">
+                    <button class="button1" class="btn btn-primary btn-lg btn-block"></button>
+                    <h3>CLOSE GATES</h3>
+                </div>
+            </div>
+                <div class="col-md-4">
+                    <div class="panel">
+                        <button class="button" class="btn btn-primary btn-lg btn-block"></button>
+                        <h3>DISPATCH</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="harness">
+                        <button class="button2" class="btn btn-primary btn-lg btn-block"></button>
+                        <h3>LOCK RESTRAINTS</h3>
+                    </div>
+                </div>
+            </div>
     </div>
-    
+    <br>
+            <img id="coaster" src="https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/640/360/90/wdpromedia.disney.go.com/media/wdpro-assets/gallery/attractions/hollywood-studios/rock-and-roller-coaster-starring-aerosmith/rock-and-roller-coaster-starring-aerosmith-gallery03.jpg?07072014211416"
+                alt="rnrc">
+        </div>
+        <br>
 
 
 
 
 
 
-<script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
+
 </html>

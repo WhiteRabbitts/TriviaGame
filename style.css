@@ -15,36 +15,132 @@ body {
     background-color: khaki;
 }
 
-.btn {
+.button {
     margin-top: 20px;
     width: 50%;
     height: 100px;
-    margin-left: 26%;
-    border-radius:50px;
+    border-radius:100px;
     background-color: darkgreen;
 }
-.btn:pressed {
-    background-color: lime;
-}
 
-.btn:hover {
+.button:hover {
     background-color: lime;
     }
-.btn:active{
+.button:active{
+    background-color: lime;
+}
+.button:visited {
     background-color: lime;
 }
 
-.btn: {
+.button:focus {
     background-color: lime;
+}
+
+.button {
+    background-color: darkgreen;
 }
 
 .panel {
     background-color:lightslategrey;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 20%;
+    margin-right: 100%;
     border-radius: 0;
+    width: 60%;
+    border: 2px black solid;
+    
+}
+.closegates {
+    background-color:lightslategrey;
+    margin-left: 20%;
+    margin-right: 100%;
+    width: 60%;
+    border-radius: 0;
+    border: 2px black solid;
+}
+.harness {
+    background-color:lightslategrey;
+    margin-left: 20%;
+    margin-right: 100%;
+    width: 60%;
+    border-radius: 0;
+    border: 2px black solid;
+}
+.button1 {
+    margin-top: 20px;
+    width: 50%;
+    height: 100px;
+    border-radius:100px;
+    background-color: sienna;
+}
+.button1:hover {
+    background-color: darkorange;
+    }
+.button1:active{
+    background-color: darkorange;
+}
+.button1:visited {
+    background-color: darkorange;
+}
+
+.button1:focus {
+    background-color: darkorange;
+}
+
+.button2 {
+    margin-top: 20px;
+    width: 50%;
+    height: 100px;
+    border-radius:100px;
+    background-color: sienna;
+}
+.button2:hover {
+    background-color: darkorange;
+    }
+.button2:active{
+    background-color: darkorange;
+}
+.button2:visited {
+    background-color: darkorange;
+}
+
+.button2:focus {
+    background-color: darkorange;
 }
 
 h3 {
     color: black;
+}
+
+img {
+    border-radius: 5px;
+    size: 30px;
+}
+
+#coaster {
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.questions {
+    text-align: center;
+    background-color: lightskyblue;
+    color: darkviolet;
+    width: 80%;
+    margin-left: 100px;
+    border-radius:15px;
+}  
+
+.choices {
+    color: darkred;
+    text-align: center;
+    background-color: lightsalmon;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.choices:hover {
+    background-color: blanchedalmond;
 }
