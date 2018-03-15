@@ -1,146 +1,91 @@
 h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.jumbotron {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    background-color: lightskyblue;
-    color: darkviolet;
-    width: 80%;
-    margin-left: 100px;
-    border-radius:15px;
-}   
+}
+h3 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
 
 body {
-    background-color: khaki;
+    background-color: gray;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.button {
-    margin-top: 20px;
-    width: 50%;
-    height: 100px;
-    border-radius:100px;
-    background-color: darkgreen;
-}
-
-.button:hover {
-    background-color: lime;
-    }
-.button:active{
-    background-color: lime;
-}
-.button:visited {
-    background-color: lime;
-}
-
-.button:focus {
-    background-color: lime;
-}
-
-.button {
-    background-color: darkgreen;
-}
-
-.panel {
-    background-color:lightslategrey;
-    margin-left: 20%;
-    margin-right: 100%;
-    border-radius: 0;
-    width: 60%;
-    border: 2px black solid;
-    
-}
-.closegates {
-    background-color:lightslategrey;
-    margin-left: 20%;
-    margin-right: 100%;
-    width: 60%;
-    border-radius: 0;
-    border: 2px black solid;
-}
-.harness {
-    background-color:lightslategrey;
-    margin-left: 20%;
-    margin-right: 100%;
-    width: 60%;
-    border-radius: 0;
-    border: 2px black solid;
-}
-.button1 {
-    margin-top: 20px;
-    width: 50%;
-    height: 100px;
-    border-radius:100px;
-    background-color: sienna;
-}
-.button1:hover {
-    background-color: darkorange;
-    }
-.button1:active{
-    background-color: darkorange;
-}
-.button1:visited {
-    background-color: darkorange;
-}
-
-.button1:focus {
-    background-color: darkorange;
-}
-
-.button2 {
-    margin-top: 20px;
-    width: 50%;
-    height: 100px;
-    border-radius:100px;
-    background-color: sienna;
-}
-.button2:hover {
-    background-color: darkorange;
-    }
-.button2:active{
-    background-color: darkorange;
-}
-.button2:visited {
-    background-color: darkorange;
-}
-
-.button2:focus {
-    background-color: darkorange;
-}
-
-h3 {
-    color: black;
-}
-
-img {
-    border-radius: 5px;
-    size: 30px;
-}
-
-#coaster {
-    border-color: black;
-    border-style: solid;
-    border-width: 4px;
-}
-
-.questions {
-    text-align: center;
+ .quizContainer {
     background-color: lightskyblue;
-    color: darkviolet;
-    width: 80%;
-    margin-left: 100px;
-    border-radius:15px;
-}  
-
-.choices {
-    color: darkred;
-    text-align: center;
-    background-color: lightsalmon;
-    font-size: 20px;
-    width: 30%;
-    margin-left: 35%;
-    border-radius: 10px;
+    border-radius: 6px;
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    position: relative;
 }
-.choices:hover {
-    background-color: blanchedalmond;
+.nextButton {
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+   
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+.question {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: coral;
+    text-align: center;
+}
+.quizMessage {
+    background-color: red;
+    height: 150px;
+    border-radius: 50%;
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding-bottom: 10%;
+
+}
+.choiceList {
+    font-family: Courier, serif;
+    color: blueviolet;
+}
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.nextButton {
+    background-color: green;
+    border-radius: 50%;
+    height: 150px;
+}
+.nextButton:hover {
+    background-color: lime;
 }
